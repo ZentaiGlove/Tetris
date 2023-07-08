@@ -1,0 +1,2 @@
+D:\project_C++\Tetris\x64\Debug\Tetris.exe.lastcodeanalysissucceeded
+D:\project_C++\Tetris\Tetris\x64\Debug\NativeCodeAnalysis.read.1.tlog

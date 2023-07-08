@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\project_C++\Tetris\Tetris\</FILEPATH>
+      <FILENAME>Tetris.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 Tetris::delay。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>Tetris::{ctor}</FUNCTION>
+    <DECORATED>??0Tetris@@QEAA@HHHHH@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Tetris::delay</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\project_C++\Tetris\Tetris\</FILEPATH>
+      <FILENAME>Tetris.cpp</FILENAME>
+      <LINE>198</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>考虑使用“GetTickCount64”而不是“GetTickCount”。原因: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>Tetris::get_delay</FUNCTION>
+    <DECORATED>?get_delay@Tetris@@AEAAHXZ</DECORATED>
+    <FUNCLINE>195</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

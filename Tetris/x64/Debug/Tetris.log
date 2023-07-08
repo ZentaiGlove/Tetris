@@ -1,0 +1,14 @@
+﻿  Block.cpp
+D:\project_C++\Tetris\Tetris\Block.cpp(116,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\project_C++\Tetris\Tetris\Block.cpp(117,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
+  Tetris.cpp
+D:\project_C++\Tetris\Tetris\Tetris.cpp(36,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\project_C++\Tetris\Tetris\Tetris.cpp(45,7): warning C4101: “data”: 未引用的局部变量
+D:\project_C++\Tetris\Tetris\Tetris.cpp(97,16): warning C4101: “ch”: 未引用的局部变量
+D:\project_C++\Tetris\Tetris\Tetris.cpp(207,11): warning C4244: “初始化”: 从“unsigned __int64”转换到“int”，可能丢失数据
+  正在运行 C/C++ 代码分析...
+  正在生成代码...
+  Tetris.vcxproj -> D:\project_C++\Tetris\x64\Debug\Tetris.exe
+D:\project_C++\Tetris\Tetris\Tetris.cpp(12): warning C26495: 未初始化变量 Tetris::delay。始终初始化成员变量(type.6)。
+D:\project_C++\Tetris\Tetris\Tetris.cpp(198): warning C28159: 考虑使用“GetTickCount64”而不是“GetTickCount”。原因: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem
